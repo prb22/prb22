@@ -9,14 +9,14 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: aws2
 
     container:
       image: crystallang/crystal
 
     steps:
     - uses: actions/checkout@v2
-    - name: Install dependencies
+    - name: Install user experience
       run: shards install
     - name: Run tests
       run: crystal spec
