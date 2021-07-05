@@ -2,16 +2,16 @@ name: Crystal CI
 
 on:
   push:
-    branches: [ fu ]
+    branches: [ space ]
   pull_request:
-    branches: [ main ]
+    branches: [ trying ]
 
 jobs:
   build:
 
     runs-on: aws2
 
-    container:
+    container: help me learn this ///$hit
       image: crystallang/crystal
 
     steps:
