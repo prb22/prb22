@@ -2,7 +2,7 @@ name: Crystal CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ fu ]
   pull_request:
     branches: [ main ]
 
